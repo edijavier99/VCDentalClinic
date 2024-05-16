@@ -1,0 +1,49 @@
+#whyus-container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.left-wu-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-wu-side h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+.left-wu-side ul{
+    list-style: none;
+}
+.whyus-list{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.fa-check{
+    background-color: rgb(13, 110, 253);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.right-wu-side{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-wu-side img{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+
+}

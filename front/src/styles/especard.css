@@ -1,0 +1,13 @@
+#especard-container{
+    background-color: rgb(200, 232, 240);
+    padding: 20px;
+    border-radius: 10px;
+}
+.icon-board{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
