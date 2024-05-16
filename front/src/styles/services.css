@@ -1,0 +1,42 @@
+#services-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.services-left-side{
+    height: 800px;
+}
+.services-left-side img{
+    height: 100%;
+    overflow: hidden;
+    width: 80%;
+}
+
+.services-right-side h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.services-card{
+    background-color: rgb(205, 241, 241);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.services-card:hover{
+    background-color: rgb(187, 241, 241);
+}
+.fa-teeth{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
