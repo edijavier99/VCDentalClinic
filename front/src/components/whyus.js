@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/whyus.css"
-import dentista from "../img/mejorada.png"
+import dentista from "../img/whyus.png"
 
 export const WhyUs = () =>{
     return(

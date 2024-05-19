@@ -1,5 +1,5 @@
 import React from "react";
-import dentist from "../img/mejorada.png"
+import dentist from "../img/file7.png"
 import "../styles/services.css"
 
 export const Services = () =>{

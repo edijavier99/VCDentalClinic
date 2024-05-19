@@ -5,12 +5,13 @@
     height: auto;
 }
 .services-left-side{
-    height: 800px;
+    height: 650px;
 }
 .services-left-side img{
     height: 100%;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
+    object-fit: cover;
 }
 
 .services-right-side h2{
