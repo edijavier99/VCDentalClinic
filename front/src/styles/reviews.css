@@ -1,9 +1,9 @@
 #reviews-container{
-    height: 550px;
+    height: 650px;
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    justify-content: center;
 }
 #reviews-container h2{
     font-weight: 800;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 .review-card{
-    background-color: rgb(202, 227, 227);
+    background-color: #D7E8F4;
     border-radius: 10px;
     padding: 20px;
     width: 45%;
@@ -32,4 +32,17 @@
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
+}
+
+@media (max-width:768px) {
+    #reviews-container{
+        height: 750px;
+    }
+    .reviews-container-inner{
+        flex-direction: column;
+    }
+    .review-card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

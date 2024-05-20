@@ -5,8 +5,8 @@ export const Reviews = () =>{
     return(
         <section id="reviews-container">
             <h2>¿Qué dicen nuestros <br/> clientes de nosotros?</h2>
-            <div className="row col-11 mx-auto d-flex justify-content-around mt-5">
-                <article className="col-md-6 review-card">
+            <div className="row col-10 mx-auto d-flex justify-content-around mt-5 reviews-container-inner">
+                <article className="col-md-10 review-card">
                     <div className="d-flex justify-content-between">
                         <i class="fa-solid fa-quote-left"></i>
                         <div className="">
@@ -28,7 +28,7 @@ export const Reviews = () =>{
                         </div>
                     </div>
                 </article>
-                <article className="col-md-6 review-card">
+                <article className="col-10 col-md-10 review-card">
                     <div className="d-flex justify-content-between">
                         <i class="fa-solid fa-quote-left"></i>
                         <div className="">

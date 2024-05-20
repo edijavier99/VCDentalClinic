@@ -5,10 +5,10 @@ import "../styles/services.css"
 export const Services = () =>{
     return(
             <section id="services-container" className="row mx-0">
-                <div className="services-left-side col-lg-6">
-                    <img alt="services-img" src={dentist}/>
+                <div className="services-left-side mx-auto col-10 col-md-11 col-lg-6">
+                    <img alt="services-img" src="https://images.pexels.com/photos/5355927/pexels-photo-5355927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
                 </div>
-                <div className="col-lg-6 services-right-side">
+                <div className="col-10 col-md-11 col-lg-6 services-right-side">
                     <h2>Encuentra Con Nosotros <br/>Lo Que Estas Buscando</h2>
                     <p>scrambled it to make a type specimen book.
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>

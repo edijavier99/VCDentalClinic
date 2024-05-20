@@ -2,16 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    min-height: 100vh;
+    background-color: #f1f9fc;
+
 }
 .services-left-side{
     height: 650px;
 }
 .services-left-side img{
     height: 100%;
+    width: 100%;
     overflow: hidden;
-    width: 90%;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .services-right-side h2{
@@ -20,7 +23,7 @@
 }
 
 .services-card{
-    background-color: rgb(205, 241, 241);
+    background-color:white;
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -30,14 +33,22 @@
     width: 100%;
 }
 .services-card:hover{
-    background-color: rgb(187, 241, 241);
+    background-color:#D7E8F4
 }
 .fa-teeth{
-    background-color: red;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color:#0d6efd;
+    padding: 20px;
     border-radius: 10px;
+    color: white;
+}
+@media (max-width:992px){
+    .services-right-side{
+        padding-top: 30px;
+    }
+    .services-left-side{
+        padding-bottom: 40px;
+    }
+    #services-container {
+        flex-direction: column-reverse; /* Cambia la dirección del flex */
+    }
 }
