@@ -7,7 +7,7 @@ export const EspeCard = (props) =>{
             <div className="bg-primary icon-board">
             <i class={`fa-solid ${props.icon}`}></i>
             </div>
-            <div className="">
+            <div>
                 <p className="pt-3"><strong>{props.title}</strong></p>
                 <p className="text-muted">{props.description}</p>
             </div>
